@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="/images/logo_favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/bcb3b4334f.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/slick.css">
+    <title>Clone Spotify</title>
+</head>
+<body>
+    <aside id="menu-lateral">
+        <div class="center">
+            <section class="inicio-bucar-container">
+                <div class="inicio">
+                    <div class="in-1">
+                        <a  href="#"><i class="fa-sharp fa-solid fa-house "></i>Inicío</a>
+                    </div>
+                    <div class="in-1">
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i>Buscar</a>
+                    </div>
+                </div>
+            </section><!--inicio-bucar-->
+            <section class="biblioteca">
+                <header class="header-biblioteca">
+                    <div class="center">
+                        <div class="in-1">
+                            <a href="#"><i class='bx bx-library' ></i>Biblioteca</a>
+                            <a href="#" alt="Criar playlist ou pasta"><i class='bx bx-plus'></i></a>
+                        </div>
+                        <div class="grupos-filtro-container">
+                            <div class="grupos-filtro">
+                                <p>Playlists</p>
+                            </div>
+                            <div class="grupos-filtro">
+                                <p>Artistas</p>
+                            </div>
+                            <div class="grupos-filtro">
+                                <p>Podcasts</p>
+                            </div>
+                        </div>
+                    </div><!--center-->
+                </header><!--header-biblioteca-->
+                <section class="aside-musics">
+                    <div class="center">
+                        <div class="search-filters">
+                            <label for="search"> <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></label>
+                            <input type="search" name="search" id="search" placeholder="Buscar na biblioteca">
+                            <div class="clas-filter-container">
+                                <div class="clas-filter">
+                                    <select name="" id="">
+                                        <option disabled selected>Filtrar</option>
+                                        <option>Recentes</option>
+                                        <option>Ordem Alfabetica</option>
+                                        <option>Criador</option>
+                                    </select>
+                                </div><!--clas-filter-->
+                            </div><!--clas-filter-container-->
+                        </div><!--search-filters-->
+                        <div class="box-music-container">
+                            <div class="box-music-single">
+                                    <div class="box-music-img">
+                                        <img src="/images/album_0.jpg">
+                                    </div>
+                                    <div class="name-author" class="main__col" data-image="img/gunsrools.png" data-artist="Guns N Roses" data-song="Sweet Child Of Mine" data-file="assets/music.mp3">
+                                        <h3 class="name"> Musica 1</h3>
+                                        <h3 class="author">Playlist - 63 musicas</h3>
+                                    </div>
+                            </div><!--box-music-single-->
+                            <div class="box-music-single">
+                                <div class="box-music-img">
+                                    <img src="/images/album_1.jpg">
+                                </div>
+                                <div class="name-author">
+                                    <h3 class="name"> Musica 2</h3>
+                                    <h3 class="author">Playlist - 32 musicas</h3>
+                                </div>
+                            </div><!--box-music-single-->
+                            <div class="box-music-single">
+                                <div class="box-music-img">
+                                    <img src="/images/album_2.jpg">
+                                </div>
+                                <div class="name-author">
+                                    <h3 class="name"> Musica 3</h3>
+                                    <h3 class="author">Podcast - Banda</h3>
+                                </div>
+                            </div><!--box-music-single-->
+                            <div class="box-music-single">
+                                <div class="box-music-img">
+                                    <img src="/images/album_3.jpg">
+                                </div>
+                                <div class="name-author">
+                                    <h3 class="name"> Musica 4</h3>
+                                    <h3 class="author">Playlist - 16 musicas</h3>
+                                </div>
+                            </div><!--box-music-single-->
+                            <div class="box-music-single">
+                                <div class="box-music-img">
+                                    <img src="/images/album_0.jpg">
+                                </div>
+                                <div class="name-author">
+                                    <h3 class="name"> Musica 5</h3>
+                                    <h3 class="author">Artista - 63 musicas</h3>
+                                </div>
+                            </div><!--box-music-single-->
+                            <div class="box-music-single">
+                                <div class="box-music-img">
+                                    <img src="/images/album_1.jpg">
+                                </div>
+                                <div class="name-author">
+                                    <h3 class="name"> Musica 6</h3>
+                                    <h3 class="author">Podcast - Banda</h3>
+                                </div>
+                            </div><!--box-music-single-->
+                            <div class="box-music-single">
+                                <div class="box-music-img">
+                                    <img src="/images/album_2.jpg">
+                                </div>
+                                <div class="name-author">
+                                    <h3 class="name"> Musica 7</h3>
+                                    <h3 class="author">Playlist - 13 musicas</h3>
+                                </div>
+                            </div><!--box-music-single-->
+                            <div class="box-music-single">
+                                <div class="box-music-img">
+                                    <img src="/images/album_3.jpg">
+                                </div>
+                                <div class="name-author">
+                                    <h3 class="name"> Musica 8</h3>
+                                    <h3 class="author">Playlist - 25 musicas</h3>
+                                </div>
+                            </div><!--box-music-single-->
+                        </div><!--box-music-container-->
+                    </div><!--center-->
+                </section><!--aside-musics-->
+            </section><!--biblioteca-->
+        </div><!--center-->
+    </aside>
+    <div class="clear"></div>
+    <main class="sessao-principal">
+        <header class="main-header">
+            <div class="center">
+                <div class="arrows-container">
+                    <div class="arrow"><i class="fa-solid fa-chevron-left"></i></div>
+                    <div class="arrow"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+                <div class="premium-app-person">
+                    <a class='premium'  href="#">Torne-se Premium</a>
+                    <div class="download-app">
+                        <i class="fa-solid fa-circle-down"></i>
+                        <a class='app'  href="#">Instalar app</a>
+                    </div>
+                        <div class="person"><img src="/images/autor.png"></div>
+                </div><!--premium-app-person-->
+            </div><!--center-->
+        </header><!--main-header-->
+        <div class="section-container">
+            <section class="galery-music-container">
+                    <h1>Tocados recentemente</h1>
+                    <div class="main-music-container">
+                        <div class="center">
+                            <div class="main-music-single" class="main__col" data-image="img/gunsrools.png" data-artist="Guns N Roses" data-song="Sweet Child Of Mine" data-file="assets/music.mp3">
+                                <img src="/images/album_0.jpg">
+                                <h3>Musica 1</h3>
+                                <p>Cantor da musica 1</p>
+                            </div><!--main-music-single-->
+                            <div class="main-music-single">
+                                <img src="/images/album_1.jpg">
+                                <h3>Musica 2</h3>
+                                <p>Cantor da musica 2</p>
+                            </div><!--main-music-single-->
+                            <div class="main-music-single">
+                                <img src="/images/album_2.jpg">
+                                <h3>Musica 3</h3>
+                                <p>Cantor da musica 3</p>
+                            </div><!--main-music-single-->
+                            <div class="main-music-single">
+                                <img src="/images/album_3.jpg">
+                                <h3>Musica 4</h3>
+                                <p>Cantor da musica 4</p>
+                            </div><!--main-music-single-->
+                            <div class="main-music-single">
+                                <img src="/images/album_0.jpg">
+                                <h3>Musica 5</h3>
+                                <p>Cantor da musica 6</p>
+                            </div><!--main-music-single-->
+                            <div class="main-music-single">
+                                <img src="/images/album_1.jpg">
+                                <h3>Musica 6</h3>
+                                <p>Cantor da musica 6</p>
+                            </div><!--main-music-single-->
+                            <div class="main-music-single">
+                                <img src="/images/album_2.jpg">
+                                <h3>Musica 7</h3>
+                                <p>Cantor da musica 7</p>
+                            </div><!--main-music-single-->
+                        </div><!--center-->
+                    </div><!--main-music-container-->
+            </section><!--galery-music-container-->
+            <section class="galery-music-container">
+                <h1>Descubra novos artistas</h1>
+                <div class="main-music-container">
+                    <div class="center">
+                        <div class="main-music-single">
+                            <img src="/images/album_0.jpg">
+                            <h3>Musica 1</h3>
+                            <p>Cantor da musica 1</p>
+                        </div><!--main-music-single-->
+                        <div class="main-music-single">
+                            <img src="/images/album_1.jpg">
+                            <h3>Musica 2</h3>
+                            <p>Cantor da musica 2</p>
+                        </div><!--main-music-single-->
+                        <div class="main-music-single">
+                            <img src="/images/album_2.jpg">
+                            <h3>Musica 3</h3>
+                            <p>Cantor da musica 3</p>
+                        </div><!--main-music-single-->
+                        <div class="main-music-single">
+                            <img src="/images/album_3.jpg">
+                            <h3>Musica 4</h3>
+                            <p>Cantor da musica 4</p>
+                        </div><!--main-music-single-->
+                        <div class="main-music-single">
+                            <img src="/images/album_0.jpg">
+                            <h3>Musica 5</h3>
+                            <p>Cantor da musica 6</p>
+                        </div><!--main-music-single-->
+                        <div class="main-music-single">
+                            <img src="/images/album_1.jpg">
+                            <h3>Musica 6</h3>
+                            <p>Cantor da musica 6</p>
+                        </div><!--main-music-single-->
+                        <div class="main-music-single">
+                            <img src="/images/album_2.jpg">
+                            <h3>Musica 7</h3>
+                            <p>Cantor da musica 7</p>
+                        </div><!--main-music-single-->
+                    </div><!--center-->
+                </div><!--main-music-container-->
+            </section><!--galery-music-container-->
+            <section class="galery-music-container">
+            <h1>Pensado especialmente em você</h1>
+            <div class="main-music-container">
+                <div class="center">
+                    <div class="main-music-single">
+                        <img src="/images/album_0.jpg">
+                        <h3>Musica 1</h3>
+                        <p>Cantor da musica 1</p>
+                    </div><!--main-music-single-->
+                    <div class="main-music-single">
+                        <img src="/images/album_1.jpg">
+                        <h3>Musica 2</h3>
+                        <p>Cantor da musica 2</p>
+                    </div><!--main-music-single-->
+                    <div class="main-music-single">
+                        <img src="/images/album_2.jpg">
+                        <h3>Musica 3</h3>
+                        <p>Cantor da musica 3</p>
+                    </div><!--main-music-single-->
+                    <div class="main-music-single">
+                        <img src="/images/album_3.jpg">
+                        <h3>Musica 4</h3>
+                        <p>Cantor da musica 4</p>
+                    </div><!--main-music-single-->
+                    <div class="main-music-single">
+                        <img src="/images/album_0.jpg">
+                        <h3>Musica 5</h3>
+                        <p>Cantor da musica 6</p>
+                    </div><!--main-music-single-->
+                    <div class="main-music-single">
+                        <img src="/images/album_1.jpg">
+                        <h3>Musica 6</h3>
+                        <p>Cantor da musica 6</p>
+                    </div><!--main-music-single-->
+                    <div class="main-music-single">
+                        <img src="/images/album_2.jpg">
+                        <h3>Musica 7</h3>
+                        <p>Cantor da musica 7</p>
+                    </div><!--main-music-single-->
+                </div><!--center-->
+            </div><!--main-music-container-->
+            </section><!--galery-music-container-->
+        </div><!--section-container-->
+
+    </main><!--sessao-principal-->
+    <div class="clear"></div>
+
+    <footer>
+        <div class="center">
+            <div class="player">
+                <div class="player__artist">
+        
+                </div>
+                <div class="player__control">
+                    <div class="player__control__buttons">
+                        <a href=""><i class="fas fa-backward"></i></a>
+                        <a style="display: none;" id="pauseBtn" href="#"><i class="far fa-pause-circle"></i></a>
+                        <a id="playBtn" href="#"><i class="far fa-play-circle"></i></a>
+                        <a href=""><i class="fas fa-forward"></i></a>
+                    </div>
+        
+                    <div class="player__control__progress">
+                        <div style="width:0%;" class="player__control__progress_2"></div>
+                    </div>
+        
+                </div>
+            </div><!--player-->
+        
+            <audio id="audioplayer" style="position: absolute;left: 0;
+            top: 0;z-index: -999;opacity: 0;" controls="">
+                
+            </audio>
+        </div><!--center-->    
+    </footer>
+<script src="/js/jquery-3.6.4.min.js"></script>
+<script src="/js/slick.js"></script>
+<script src="/js/script.js"></script>
+</body>
+</html>
